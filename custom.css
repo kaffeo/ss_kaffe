@@ -1,0 +1,2094 @@
+/* FULL RESET */
+html, body {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*body, section, div, span, h1, h2, h3, p, a, img,*/
+
+.shop-widget,
+.subscribe-widget,
+.item-widget,
+.heading1,
+.heading2,
+.heading3,
+.body-text,
+.main-button,
+.alt-button,
+.column30-left,
+.column30-center,
+.column30-right,
+.column40-left,
+.column40-right,
+.column50-left,
+.column50-right,
+.column60-left,
+.column60-right, 
+.column70-left,
+.column70-right,
+.width100, .width90, .width80, .width70, .width60, .width50, .width40, .width30, .width20, .width10,
+.height1, .height2, .height3, .height4, .height5, .height6, .height7, .height8, .height9, .height10, .height11, .height12, .height13, .height14, .height15,
+.main-button,
+.submit-biline,
+.alt-button,
+.item-widget,
+.offer-widget,
+.flex-box,
+.flex-top,
+.flex-stretch,
+.flex-center,
+.flex-left,
+.reset {
+		-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	
+    font-family: 'Telefon','Futura-pt','Futura', sans-serif; 
+    /*font-family: 'Futura-pt','Futura', sans-serif;*/
+	font-size: 16px;
+	line-height: 1em;
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+/* Responsive Images */
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* All Lists are text-left */
+ul {
+	text-align: left;
+}
+
+
+.main-button:hover,
+.alt-button:hover,
+.shop-widget:hover,
+.select-label:hover,
+.select-frequency:hover,
+.select-qty:hover,
+button:hover {
+	cursor: pointer;
+}
+
+
+/* Typography Reset */
+.heading1,
+.heading2,
+.heading3,
+.body-text,
+.main-button,
+.alt-button {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: .09em;
+	word-spacing: normal;
+	line-height: normal;
+	text-transform: none;
+	text-decoration: none;
+          -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+}
+
+/* Link Reset */
+.main-button,
+.alt-button,
+a {
+	text-decoration: none;
+}
+
+
+/* Text Blocks */
+.heading1,
+.heading2,
+.heading3,
+.body-text {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Flexbox */
+.shop-widget,
+.subscribe-widget,
+.submit-biline,
+.alt-button,
+.flex-column,
+.flex-center,
+.flex-top,
+.flex-left,
+.flex-stretch,
+.flex-right,
+.flex-box {
+	display: -webkit-box; display: -webkit-flex; display: -ms-flexbox;
+	display: flex;
+    	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.hero-wrap,
+.hero-overlay,
+.shop-widget,
+.subscribe-widget,
+.alt-button,
+.justify-center, 
+.flex-center {
+    	-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;
+	justify-content: center;
+}
+
+
+.flex-left {
+		-webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start;
+	justify-content: flex-start;
+}
+
+.flex-right {
+    -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.flex-center {
+		-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;
+	align-items: center;
+		-webkit-align-content: center;-ms-flex-line-pack: center;
+	align-content: center;
+}
+
+
+.flex-top {
+		-webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start;
+    align-items: flex-start;
+		-webkit-align-content: flex-start; -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.flex-stretch {
+		-webkit-box-align: stretch;  -webkit-align-items: stretch;-ms-flex-align: stretch;
+	align-items: stretch;
+		-webkit-align-content: stretch; -ms-flex-line-pack: stretch;
+	align-content: stretch;
+}
+
+.stretch-this {
+	  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+}
+
+
+.flex-grow {
+	   -webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.flex-column {
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+
+/*body, div, section, */
+.full-width {
+	width: 100%;
+}
+
+.overlay-dark,
+.overlay-light {
+	z-index: 2;
+}
+
+
+/*** Button Structure ***/
+
+.main-button,
+.alt-button {
+	min-height: 2em;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	text-decoration: none;
+}
+
+/***  END:  Button Structure ***/
+
+
+
+/***   START:  Shop Widget ***/
+
+.shop-widgets,
+.shop-widget,
+.shop-widget > .widget-child1,
+.shop-widget > .widget-child2, 
+.shop-widget > .widget-child3 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.shop-widgets,
+.shop-widget > .widget-child1,
+.shop-widget > .alt-button {
+  width: 100%;  
+}
+
+
+@media (max-width: 499px) {
+  .shop-widget > .widget-child2 {
+    width:55%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  
+  .shop-widget > .widget-child3 {
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
+
+
+@media (max-width: 749px) and (min-width: 500px) {
+  .shop-widget > .widget-child2 {
+    width:60%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .shop-widget > .widget-child3 {
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }  
+}
+
+@media (max-width: 749px) {
+  .shop-widget {
+    width: 100%;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 750px) {
+  .shop-widget {
+    width: 90%;
+  }
+  
+  .shop-widget > .widget-child2 {
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .shop-widget > .widget-child3 {
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
+
+@media (max-width: 999px) {
+  .shop-widget {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .shop-widget {
+    width: 29%;
+  }
+  
+  .shop-widget.widget1 {
+    margin-right: 1%;
+  }
+  
+  .shop-widget.widget2 {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+  
+  .shop-widget.widget3 {
+    margin-left: 1%;
+  }
+  
+  .shop-widget > .widget-child2 {
+    width:58.5%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+  }
+  
+  .shop-widget > .widget-child3 {
+    width: 37%;
+    margin-left: 1.5%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1250px) {
+  .shop-widget .heading3 {
+    font-size: 1em;
+  }
+}
+
+/***  END:  Shop Widget   ***/
+
+
+
+/*** Custom select style ***/
+.select-wrap {
+  	display: -webkit-box; display: -webkit-flex; display: -ms-flexbox;
+	display: flex;
+    	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+          -webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;
+	justify-content: center;
+}
+
+
+.select-frequency,
+.select-qty {
+  -webkit-appearance : none; 
+  -moz-appearance : none; 
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  border-radius: 0px; 
+  font-size: 16px;
+  margin: 0; 
+  min-height: 3em;
+}
+
+.select-label {
+	display: block;
+	width: 100%;
+	margin: 0 10% 0 0;
+	padding: 1em 0 0.5em 0;
+}
+
+.select-wrap {
+	width: 100%;
+	margin: 0 0 1.5em 0;
+}
+
+
+/* Widget Selects */
+.offer-widget .select-label,
+.offer-widget .select-qty,
+.offer-widget .select-frequency,
+.subscribe-widget .select-label,
+.select-widget .select-frequency,
+.select-widget .select-qty {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.offer-widget .select-label,
+.subscribe-widget .select-label {
+	width: 50%;
+	margin-left: 0;
+	margin-right: 0;
+	line-height: 1em;
+}
+
+.offer-widget .select-frequency,
+.subscribe-widget .select-frequency {
+	width: 45%;
+}
+
+.offer-widget .select-qty {
+	width: 25%;
+}
+
+.offer-widget .width100,
+.subscribe-widget .width100 {
+	width: 100%;
+}
+
+
+
+/***  END:  Custom Style Select **/
+
+
+/* Subscribe and offer widgets are flex-center, flex-top */
+.offer-widget,
+.subscribe-widget,
+.widget-link,
+.widget-body,
+.widget-footer {
+		display: -webkit-box; display: -webkit-flex; display: -ms-flexbox;
+	display: flex;
+    	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    	-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;
+	justify-content: center;
+		-webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start;
+    align-items: flex-start;
+		-webkit-align-content: flex-start; -ms-flex-line-pack: start;
+    align-content: flex-start; 
+    text-align: center;   	
+}
+
+/* Product Titles and button wraps are center aligned */
+.widget-title,
+.button-wrap,
+.offer-widget .select-wrap,
+.subscribe-widget .select-wrap {
+
+			display: -webkit-box; display: -webkit-flex; display: -ms-flexbox;
+	display: flex;
+	    	-webkit-flex-wrap: wrap; -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    	-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;
+	justify-content: center;
+
+		-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;
+	align-items: center;
+		-webkit-align-content: center;-ms-flex-line-pack: center;
+	align-content: center;
+	width: 100%;
+}
+
+
+/* All widget links and lists have zero class */
+.widget-link,
+.widget-link li {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* All widget list headings and lists are close together */
+.widget-list-heading {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;	
+}
+
+.widget-list {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+
+
+
+/*** START:  Subscribe Widget Media Queries ***/
+
+@media (max-width: 749px) and (min-width: 550px) {
+	.subscribe-widget {
+		width: 95%;
+		margin-left: 2.5%; 
+		margin-right: 2.5%;
+	}
+}
+
+@media (max-width: 999px) and (min-width: 750px) {
+	.subscribe-widget {
+			width: 90%; 
+			margin-left: 5%; 
+			margin-right: 5%;
+		}
+}
+
+@media (max-width: 999px) and (min-width: 550px) {
+
+	.subscribe-widget a {
+		width: 100%;
+	}
+	
+	.subscribe-widget .widget-title {
+		width: 47.5%;
+		margin-right: 2.5%;
+	}
+	
+	
+	.subscribe-widget .widget-body {
+		width: 47.5%;
+		margin-left: 2.5%;
+	}
+	
+	.subscribe-widget .widget-footer {
+		width: 47.5%;
+		margin-left: 52.5%;
+	}
+							
+}		
+
+@media (min-width: 1000px) {
+	.subscribe-widget 
+		{width: 29%;}
+		
+	.subscribe-widget.widget1 
+		{margin-left: 0; margin-right: 1%;}	
+
+	.subscribe-widget.widget2 
+		{margin-left: 0.5%; margin-right: 0.5%;}
+		
+	.subscribe-widget.widget3 
+		{margin-left: 1%; margin-right: 0;}
+	
+	.subscribe-widget .widget-body .two-lines {
+		min-height: 3.75em;
+	}
+	
+	.subscribe-widget .widget-body ul {
+		min-height: 6.5em;
+	}
+	
+	 				
+}
+
+
+
+/***  START: Item Detail Widget  ***/
+.item-widget, .item-origins {
+	max-width: 1200px;
+}
+
+.offer-widget .widget-footer {
+	margin-top: 1em;
+	width: 100%;
+}
+
+/* Portrait Phones */
+@media (max-width: 549px) {
+	
+	.item-widget > .widget-child1 
+		{margin-top: 0; padding-top: 0;}
+	
+	.item-widget > .widget-child1,
+	.item-widget > .widget-child2,
+	.item-widget > .widget-child3 
+		{width: 100%;}
+		
+	.item-widget > .widget-child2 {
+		margin-bottom: 0;
+		margin-top: 1em;
+	}
+}
+
+/* Tablet-- */
+@media (max-width: 749px) {
+	.item-widget > img.widget-child1,
+	.item-widget > .widget-child1 > img 
+		{max-width: 100%;}
+		
+	.item-description {
+		margin-top: 3em;
+	}	
+}
+
+/* Landscape Phones */
+@media (max-width: 749px) and (min-width: 550px) {
+
+	.item-widget > .widget-child2,
+	.item-widget > .widget-child3 
+		{width: 100%;}
+		
+	.item-widget > .widget-child2 
+		{margin-top: 1em;}	
+	
+	.offer-widget .widget-title,
+	.offer-widget .widget-body,
+	.offer-widget .widget-footer 
+		{width: 47.5%;}
+		
+	.offer-widget .widget-title 
+		{margin-right: 2.5%;}
+		
+	.offer-widget .widget-body 
+		{margin-left: 2.5%;}	
+	
+	.offer-widget .widget-footer 
+		{margin-left: 52.5%;}	
+				
+}
+
+/* Tablet++ */
+@media (min-width: 750px) {
+	.item-widget {
+		-webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column;
+	flex-direction: column;
+		-webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start;
+	justify-content: flex-start;
+	}
+	
+	.offer-widget {
+	-webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1;
+    	order: 1;
+	}
+	
+	.item-widget > .widget-child3 {
+			-webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start;
+		align-items: flex-start;
+			-webkit-align-content: flex-start; -ms-flex-line-pack: start;
+		align-content: flex-start;
+	}
+
+}
+
+/* iPad Portrait */
+@media (max-width: 999px) and (min-width: 750px) {
+	.item-widget {height: 35em; width: 100%;}	
+		
+	.item-widget > .widget-child1,
+	.item-widget > .widget-child3 
+		{width: 59%; margin-left: 0%; margin-right: 1%;}
+
+	.item-widget > .widget-child2 
+		{width: 39%; margin-left: 1%; margin-right: 0%;}
+}
+
+@media (min-width: 1000px) {
+	.item-widget {height: 38em;}
+	
+	.item-widget > .widget-child1,
+	.item-widget > .widget-child3 
+		{width: 59.5%; margin-right: 0.5%;}
+
+	
+	.item-widget > .widget-child2 
+		{width: 29%; margin-left: 1%}
+		
+	.item-widget > .widget-child3  
+		{padding-left: 2.5%; padding-right: 2.5%;}
+	
+	.item-widget > .widget-child3 > .heading3 
+		{padding-bottom: 0; margin-bottom: 0;}						
+}
+
+/* END:  Item Detail Widget */
+
+
+
+
+/* Column Layout */
+
+@media (max-width: 549px) {
+	.column30-left,
+	.column30-center,
+	.column30-right,
+	.column40-left,
+	.column40-center,
+	.column40-right,
+	.column50-left,
+	.column50-right,
+	.column60-left,
+	.column60-right,
+	.column70-left,
+	.column70-right {
+		width: 100%;
+	}
+}	
+	
+@media (max-width: 740px) and (min-width: 550px) {
+	.column30-left,
+	.column30-center,
+	.column30-right,
+	.column40-left,
+	.column40-center,
+	.column40-right,
+	.column50-left,
+	.column50-right,
+	.column60-left,
+	.column60-right,
+	.column70-left,
+	.column70-right {
+		width: 47%; margin-left: 1.5%; margin-right: 1.5%;
+	}
+	
+	
+	
+	.column30-right, .column40-right {-webkit-box-flex: 1; -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto;
+		flex: 1 1 auto;}
+}	
+	
+@media (min-width: 750px) {
+		
+	
+	.column30-left,
+	.column30-center,
+	.column30-right {
+		width: 29%;
+	}
+	
+	.column40-left,
+	.column40-center,
+	.column40-right {
+		width: 39%;
+	}
+	
+	.column50-left,
+	.column50-right {
+		width: 49.25%;
+	}
+	
+	.column60-left, 
+	.column60-right {
+		width: 59.5%;
+	}
+	
+	.column70-left,
+	.column70-right {
+		width: 69.5%;
+	}
+	
+	.column30-left,
+	.column40-left {
+		margin-left: 0%;
+		margin-right: 1%;
+	}
+	
+	.column50-left {
+		margin-right: 0.75%;
+	}
+	
+	.column60-left,
+	.column70-left {
+		margin-right: 0.5%;
+	}
+	
+	.column30-center,
+	.column40-center {
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+	}
+	
+	.column30-right,
+	.column40-right {
+		margin-left: 1%;
+		margin-right: 0;
+	}
+	
+	.column50-right {margin-left: 0.75%;}
+	
+	.column60-right,
+	.column70-right {
+		margin-left: 0.5%;
+	}	
+}
+
+
+/*  Width Helper Classes  */
+.width100 {
+	width: 100%;
+}
+
+.width90 {
+	width: 90%;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+.width60 {
+	width: 60%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.width40 {
+	width: 40%;
+}
+
+.width30 {
+	width: 30%;	
+}
+
+.width20 {
+	width: 20%;
+}
+
+.width10 {
+	width: 10%;
+}
+
+/* Everything is full width on mobile */
+@media (max-width: 549px) {
+	.width100, .width90, .width80, .width70, .width60, .width50, .width40, .width30, .width20, .width10 
+		{width: 100%;}
+}
+
+/* Add col1 to a width element to keep it from wrapping */
+.column1.width100 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.column1.width90 {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.column1.width80 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.column1.width70 {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.column1.width60 {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.column1.width50 {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.column1.width40 {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.column1.width30 {
+	margin-left: 35%;
+	margin-right: 35%;	
+}
+
+.column1.width20 {
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.column1.width10 {
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+
+/* Height Helper Classes */
+
+.height1 {
+	min-height: 1em;
+}
+
+.height2 {
+	min-height: 2em;
+}
+
+.height3 {
+	min-height: 3em;
+}
+
+.height4 {
+	min-height: 4em;
+}
+
+.height5 {
+	min-height: 5em;
+}
+
+.height6 {
+	min-height: 6em;
+}
+
+.height7 {
+	min-height: 7em;
+}
+
+.height8 {
+	min-height: 8em;
+}
+
+.height9 {
+	min-height: 9em;
+}
+
+.height10 {
+	min-height: 10em;
+}
+
+.height11 {
+	min-height: 11em;
+}
+
+.height12 {
+	min-height: 12em;
+}
+
+.height13 {
+	min-height: 13em;
+}
+
+.height14 {
+	min-height: 14em;
+}
+
+.height15 {
+	min-height: 15em;
+}
+
+.height20 {
+  min-height: 20em;
+}
+
+.height25 {
+  min-height: 25em;
+}
+
+.height30 {
+  min-height: 30em;
+}
+
+
+/* Helper Margin Classes */
+.margin0-top {
+	margin-top: 0 !important;
+}
+
+.margin1, .margin1-top {
+	margin-top: 4px !important;
+}
+
+.margin2, .margin2-top {
+	margin-top: 8px !important;	
+}
+
+.margin3, .margin3-top {
+	margin-top: 12px !important;
+}
+
+.margin4, .margin4-top {
+	margin-top: 16px !important;
+}
+
+.margin5, .margin5-top {
+	margin-top: 20px !important;
+}
+
+.margin6, .margin6-top {
+	margin-top: 24px !important;
+}
+
+.margin7, .margin7-top {
+	margin-top: 32px !important;
+}
+
+.margin8, .margin8-top {
+	margin-top: 40px !important;
+}
+
+.margin9, .margin9-top {
+	margin-top: 48px !important;
+}
+
+.margin10, .margin10-top {
+	margin-top: 60px !important;
+}
+
+.margin0-bottom {
+	margin-bottom: 0 !important;
+}
+
+.margin1, .margin1-bottom {
+	margin-bottom: 4px !important;
+}
+
+.margin2, .margin2-bottom {
+	margin-bottom: 8px !important;	
+}
+
+.margin3, .margin3-bottom {
+	margin-bottom: 12px !important;
+}
+
+.margin4, .margin4-bottom {
+	margin-bottom: 16px !important;
+}
+
+.margin5, .margin5-bottom {
+	margin-bottom: 20px !important;
+}
+
+.margin6, .margin6-bottom {
+	margin-bottom: 24px !important;
+}
+
+.margin7, .margin7-bottom {
+	margin-bottom: 32px !important;
+}
+
+.margin8, .margin8-bottom {
+	margin-bottom: 40px !important;
+}
+
+.margin9, .margin9-bottom {
+	margin-bottom: 48px !important;
+}
+
+.margin10, .margin10-bottom {
+	margin-bottom: 60px !important;
+}
+
+
+.margin0, .margin0-right {
+  margin-right: 0 !important;
+}
+
+.margin1, .margin1-right {
+	margin-right: 1% !important;
+}
+
+.margin2, .margin2-right {
+	margin-right: 2% !important;	
+}
+
+.margin3, .margin3-right {
+	margin-right: 3% !important;
+}
+
+.margin4, .margin4-right {
+	margin-right: 4% !important;
+}
+
+.margin5, .margin5-right {
+	margin-right: 5% !important;
+}
+
+.margin6, .margin6-right {
+	margin-right: 6% !important;
+}
+
+.margin7, .margin7-right {
+	margin-right: 7% !important;
+}
+
+.margin8, .margin8-right {
+	margin-right: 8% !important;
+}
+
+.margin9, .margin9-right {
+	margin-right: 9% !important;
+}
+
+.margin10, .margin10-right {
+	margin-right: 10% !important;
+}
+
+.margin15, .margin15-right {
+  margin-right: 15% !important;
+}
+
+.margin20, .margin20-right {
+  margin-right: 20% !important;
+}
+
+.margin0, .margin0-left {
+  margin-left: 0 !important;
+}
+
+.margin1, .margin1-left {
+	margin-left: 1% !important;
+}
+
+.margin2, .margin2-left {
+	margin-left: 2% !important;	
+}
+
+.margin3, .margin3-left {
+	margin-left: 3% !important;
+}
+
+.margin4, .margin4-left {
+	margin-left: 4% !important;
+}
+
+.margin5, .margin5-left {
+	margin-left: 5% !important;
+}
+
+.margin6, .margin6-left {
+	margin-left: 6% !important;
+}
+
+.margin7, .margin7-left {
+	margin-left: 7% !important;
+}
+
+.margin8, .margin8-left {
+	margin-left: 8% !important;
+}
+
+.margin9, .margin9-left {
+	margin-left: 9% !important;
+}
+
+.margin10, .margin10-left {
+	margin-left: 10% !important;
+}
+
+.margin15, .margin15-left {
+  margin-left: 15% !important;
+}
+
+.margin20, .margin20-left {
+  margin-left: 20% !important;
+}
+
+ 
+ /* Border Helper Classes */
+
+.border0, .border0-top {
+  border-top: 0;
+}
+
+.border1, .border1-top {
+	border-top: 1px solid;
+}
+
+.border2, .border2-top {
+	border-top: 2px solid;
+}
+
+.border3, .border3-top {
+	border-top: 3px solid;
+}
+
+.border4, .border4-top {
+	border-top: 4px solid;
+}
+
+.border5, .border5-top {
+	border-top: 5px solid;
+}
+
+
+.border1, .border1-right {
+	border-right: 1px solid;
+}
+
+.border2, .border2-right {
+	border-right: 2px solid;
+}
+
+.border3, .border3-right {
+	border-right: 3px solid;
+}
+
+.border4, .border4-right {
+	border-right: 4px solid;
+}
+
+.border5, .border5-right {
+	border-right: 5px solid;
+}
+
+
+.border0, .border0-bottom {
+  border-bottom: 0;
+}
+
+.border1, .border1-bottom {
+	border-bottom: 1px solid;
+}
+
+.border2, .border2-bottom {
+	border-bottom: 2px solid;
+}
+
+.border3, .border3-bottom {
+	border-bottom: 3px solid;
+}
+
+.border4, .border4-bottom {
+	border-bottom: 4px solid;
+}
+
+.border5, .border5-bottom {
+	border-bottom: 5px solid;
+}
+
+
+.border0, .border0-left {
+  border-left: 0;
+}
+
+.border1, .border1-left {
+	border-left: 1px solid;
+}
+
+.border2, .border2-left {
+	border-left: 2px solid;
+}
+
+.border3, .border3-left {
+	border-left: 3px solid;
+}
+
+.border4, .border4-left {
+	border-left: 4px solid;
+}
+
+.border5, .border5-left {
+	border-left: 5px solid;
+}
+
+
+/* Padding Helper Classes */
+.pad0, .pad0-top {
+  padding-top: 0 !important;
+}
+
+.pad1, .pad1-top {
+	padding-top: 4px !important;
+}
+
+.pad2, .pad2-top {
+	padding-top: 8px !important;	
+}
+
+.pads3, .pad3-top {
+	padding-top: 12px !important;
+}
+
+.pad4, .pad4-top {
+	padding-top: 16px !important;
+}
+
+.pad5, .pad5-top {
+	padding-top: 20px !important;
+}
+
+.pad6, .pad6-top {
+	padding-top: 24px !important;
+}
+
+.pad7, .pad7-top {
+	padding-top: 32px !important;
+}
+
+.pad8, .pad8-top {
+	padding-top: 40px !important;
+}
+
+.pad9, .pad9-top {
+	padding-top: 48px !important;
+}
+
+.pad10, .pad10-top {
+	padding-top: 60px !important;
+}
+
+
+.pad0, .pad0-bottom {
+  padding-bottom: 0 !important;
+}
+
+.pad1, .pad1-bottom {
+	padding-bottom: 4px !important;
+}
+
+.pad2, .pad2-bottom {
+	padding-bottom: 8px !important;	
+}
+
+.pad3, .pad3-bottom {
+	padding-bottom: 12px !important;
+}
+
+.pad4, .pad4-bottom {
+	padding-bottom: 16px !important;
+}
+
+.pad5, .pad5-bottom {
+	padding-bottom: 20px !important;
+}
+
+.pad6, .pad6-bottom {
+	padding-bottom: 24px !important;
+}
+
+.pad7, .pad7-bottom {
+	padding-bottom: 32px !important;
+}
+
+.pad8, .pad8-bottom {
+	padding-bottom: 40px !important;
+}
+
+.pad9, .pad9-bottom {
+	padding-bottom: 48px !important;
+}
+
+.pad10, .pad10-bottom {
+	padding-bottom: 60px !important;
+}
+
+
+.pad0, .pad0-right {
+  padding-right: 0 !important;
+}
+
+.pad1, .pad1-right {
+	padding-right: 4px !important;
+}
+
+.pad2, .pad2-right {
+	padding-right: 8px !important;	
+}
+
+.pad3, .pad3-right {
+	padding-right: 12px !important;
+}
+
+.pad4, .pad4-right {
+	padding-right: 16px !important;
+}
+
+.pad5, .pad5-right {
+	padding-right: 20px !important;
+}
+
+.pad6, .pad6-right {
+	padding-right: 24px !important;
+}
+
+.pad7, .pad7-right {
+	padding-right: 32px !important;
+}
+
+.pad8, .pad8-right {
+	padding-right: 40px !important;
+}
+
+.pad9, .pad9-right {
+	padding-right: 48px !important;
+}
+
+.pad10, .pad10-right {
+	padding-right: 60px !important;
+}
+
+
+.pad0, .pad0-left {
+  padding-left: 0 !important;
+}
+ 
+.pad1, .pad1-left {
+	padding-left: 4px !important;
+}
+
+.pad2, .pad2-left {
+	padding-left: 8px !important;	
+}
+
+.pad3, .pad3-left {
+	padding-left: 12px !important;
+}
+
+.pad4, .pad4-left {
+	padding-left: 16px !important;
+}
+
+.pad5, .pad5-left {
+	padding-left: 20px !important;
+}
+
+.pad6, .pad6-left {
+	padding-left: 24px !important;
+}
+
+.pad7, .pad7-left {
+	padding-left: 32px !important;
+}
+
+.pad8, .pad8-left {
+	padding-left: 40px !important;
+}
+
+.pad9, .pad9-left {
+	padding-left: 48px !important;
+}
+
+.pad10, .pad10-left {
+	padding-left: 60px !important;
+}
+
+
+
+
+
+
+
+/****************************************************************************
+*
+*     TYPOGRAPHY CSS 
+*
+*****************************************************************************/
+
+
+/********************
+ *    LIST STYLES    *
+ ********************/
+.subscribe-widget li,
+.bullet {
+  list-style-type: disc;  /* can also be: 'circle' or 'square' */
+  display: list-item;  /* This is important, don't change it! */
+  width: 100%;
+  padding-left: 2.5%;
+}
+
+
+
+
+/********************
+ *    TYPOGRAPHY    *
+ ********************/
+
+
+/* Font Face */
+.heading1,
+.heading2,
+.body-text {
+    font-weight: 300;
+}
+
+.heading3 {
+    font-weight: 400; 
+}
+
+/* Letter & Line Spacing */
+
+.heading1,
+.heading2 {
+    letter-spacing: 0.0875em;
+/*    line-height: 1.375em;  */
+}
+
+
+
+/* This is Telefon, so it needs to be managed separately */
+.heading3 {
+  	letter-spacing: 0.0625em;
+}
+
+
+/* Body text is smaller and multi-line, so it needs to be managed separately */
+.body-text {
+	letter-spacing: 0.0625em;
+	line-height: 1.5em;
+}
+
+/* Vertical Rhythm - try and keep this uniform */
+.heading1,
+.heading2,
+.heading3,
+.body-text {
+	margin-top: 0.375em;
+	margin-bottom: 0.375em;
+	padding-top: 0.375em;
+	padding-bottom: 0.375em;
+}
+
+
+.heading1,
+.heading2,
+.heading3 {
+	text-transform: lowercase;
+}
+
+
+a.heading1,
+a.heading2,
+a.heading3,
+a.body-text {text-decoration: underline;}
+
+
+
+/* iPhone 5 */
+@media (max-width: 349px) {
+	
+	.heading1 
+		{font-size: 1.728em;}
+	
+	.heading2 
+		{font-size: 1.44em;}
+	
+	.heading3 
+		{font-size:  1.2em;}
+  
+    .shop-widget .alt-button > .heading3,
+    .body-text 
+		{font-size: 1em;}
+
+}
+
+/* iPhone 6 */
+@media (max-width: 399px) and (min-width: 350px) {
+
+	.heading1 
+		{font-size: 1.953em;}
+	
+	.heading2 
+		{font-size: 1.563em;}
+	
+	.heading3 
+		{font-size:  1.25em;}
+
+    .shop-widget .alt-button > .heading3,
+	.body-text
+		{font-size: 1em;}
+}
+
+/* iPhone 6+ */
+@media (max-width: 549px) and (min-width: 400px) {
+
+	.heading1 
+		{font-size: 2.369em;}
+	
+	.heading2 
+		{font-size: 1.777em;}
+	
+	.heading3 
+		{font-size:  1.33em;}
+
+    .shop-widget .alt-button > .heading3,
+	.body-text
+		{font-size: 1em;}
+}
+
+
+
+
+
+/* Landscape Phones */
+@media (max-width: 749px) and (min-width: 550px) {
+
+	.heading1 
+		{font-size: 1.728em;}
+	
+	.heading2 
+		{font-size: 1.44em;}
+	
+	.heading3 
+		{font-size:  1.2em;}
+
+    .shop-widget .alt-button > .heading3,
+	.body-text
+		{font-size: 1em;}
+	
+}
+
+
+/* iPad Portrait */
+@media (max-width: 999px) and (min-width: 750px) {
+	
+	.heading1 
+		{font-size: 1.953em;}
+	
+	.heading2 
+		{font-size: 1.563em;}
+	
+	.heading3 
+		{font-size:  1.25em;}
+
+	.body-text
+		{font-size: 1em;}
+
+}
+
+/* iPad Landscape + Desktop */
+@media (min-width: 1000px) {		
+	
+
+	.heading1 
+		{font-size: 2.369em;}
+	
+	.heading2 
+		{font-size: 1.777em;}
+	
+	.heading3 
+		{font-size:  1.333em;}
+	
+	.body-text
+		{font-size: 1em;}
+
+}
+
+
+/* Typography Helpers */
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+.inline-block {
+  display: inline-block;
+}
+
+.zero {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+
+/****************************
+ *  Text Color Classes
+ * **************************/
+
+.text-darkest {
+	color: #000000;
+}
+
+.text-darker {
+	color: #222222;
+}
+
+.text-dark {
+	color: #444444;
+}
+
+
+.text-light {
+	color: #DDDDDD;
+}
+
+.text-lighter {
+	color: #EEEEEE;
+}
+
+.text-lightest {
+	color: #FFFFFF;
+}
+
+
+/* Overlays */
+.overlay-dark {
+	background-color: rgba(50,50,50,0.6);
+	color: #FFFFFF
+}
+
+.overlay-light {
+	background-color: rgba(255,255,255, 0.7);
+	color: #000000;
+}
+
+
+
+
+/***************************************
+*          COLOR CLASSES                *
+**************************************/
+
+
+/* Color 1: Peach */
+.color1, .color1-bdr {
+	border-color: #FFF5F0 !important;
+}
+
+.color1, .color1-bg {
+	background-color: #FFF5F0 !important;	
+}
+
+.color1-txt {
+  color: #FFF5F0 !important;    /* Must be paired with dark background class */
+}
+
+
+/* Color 2: Yellow */
+.color2, .color2-bdr {
+	border-color: #FFFF95 !important;
+}
+
+.color2, .color2-bg {
+	background-color: #FFFF95 !important;
+}
+
+.color2-txt {
+  color: #FFFF95 !important;    /* Must be paired with dark background class */
+}
+
+
+/* Color 3: Blue */
+.color3, .color3-bdr {
+	border-color: #1F4EAB !important;
+}
+
+.color3, .color3-bg {
+	background-color: #1F4EAB !important;
+}
+
+.color3-txt {
+  color: #1F4EAB !important;
+}
+
+
+/* Color 4: Lighter Pink */
+.color4, .color4-bdr {
+	border-color: #F0C2C2 !important;
+}
+
+.color4, .color4-bg {
+	background-color: #F0C2C2 !important;
+}
+
+.color4-txt {
+  color: #F0C2C2 !important;    /* Must be paired with dark background class */
+}
+
+
+/* Color 5: Darker Pink */
+.color5, .color5-bdr {
+	border-color: #e8a3a3 !important;
+}
+
+.color5, .color5-bg {
+	background-color: #e8a3a3 !important;
+}
+
+.color5-txt {
+  color: #E8A3A3 !important;    /* Must be paired with dark background class */
+}
+
+
+/* Color 6: Light Turquoise */
+.color6, .color6-bdr {
+	border-color: #9BF2DD !important;
+}
+
+
+.color6, .color6-bg {
+	background-color: #9BF2DD !important;
+}
+
+.color6-txt {
+  color: #9BF2DD !important;    /* Must be paired with dark background class */
+}
+
+
+/* Color 7: Dark Turquoise */
+.color7, .color7-bdr {
+	border-color: #67EBCB !important;
+}
+
+.color7, .color7-bg {
+	background-color: #67EBCB !important;
+}
+
+.color7-txt {
+  color: #67EBCB !important;  /* Must be paired with dark background class */
+}
+
+
+/* Color 8: Light Sky Blue */
+.color8, .color8-bdr {
+	border-color: #9CD6FA !important;
+}
+
+
+.color8, .color8-bg {
+	background-color: #9CD6FA !important;
+}
+
+.color8-txt {
+  color: #9CD6FA !important;  /* Must be paired with dark background class */
+}
+
+
+/* Color 9: Dark Sky Blue */
+
+.color9, .color9-bdr {
+	border-color: #77c7f8 !important;
+}
+
+.color9, .color9-bg {
+	background-color: #77c7f8 !important;
+}
+
+.color9-txt {
+  color: #77C7F8 !important;  /* Must be paired with dark background class */
+}
+
+
+/* Color 10: Sliver */
+.color10, .color10-bdr {
+	border-color: #DDDDDD !important;
+}
+
+.color10, .color10-bg {
+	background-color: #DDDDDD !important;
+}
+
+.color10-txt {
+  color: #DDDDDD !important;
+}
+
+
+/****************************************************************************
+*
+*     EDITABLE WIDGET CSS
+*     (edit values, not selectors or declarations)
+*
+*****************************************************************************/
+
+/* Top Border Width */
+.offer-widget,
+.subscribe-widget .widget-link {
+	border-top: 5px solid;
+}
+
+/* Product Title Width */
+.offer-widget > .widget-title,
+.subscribe-widget .widget-title   {
+	border-bottom: 1px solid;
+}
+
+/* Bottom Border on Subscribe widget Links */
+.subscribe-widget .widget-body {
+	border-bottom: 1px solid;
+}
+
+/* "Try Free" Top Border Width */
+.offer-widget .widget-footer {
+	border-top: 1px solid;
+}
+
+/* Product Title Height & Position */
+.widget-title {
+	min-height: 3em;
+	margin-top: 0;
+}
+
+/* Bullet Point Alignment */
+.subscribe-widget .widget-list {
+	margin-left: 10%;
+	width: 80%;
+}
+
+/* Vertical space between subscription widgets on mobile */
+.subscribe-widget {
+	margin-bottom: 60px;
+}
+
+/* Horizontal Widget Padding  */
+.offer-widget,
+.subscribe-widget {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+/* Vertical space in between text line on offer widget */
+.offer-widget .widget-body .heading3,
+.offer-widget .body-text {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+
+/* Select Box Background and Border */
+.offer-widget select,
+.subscribe-widget select {
+	
+	background-color: #FAFAFA;
+	
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-color: #888888;
+}
+
+
+/* Hover Color for Select Box */
+.select-wrap:hover select {
+	background-color: #FCFCFC;
+}
+
+
+/*  Widget hoverable text color */
+.offer-widget .body-text,
+.subscribe-widget .body-text,
+.select-wrap,
+.subscribe-widget a,
+.subscribe-widget label,
+.offer-widget label,
+.subscribe-widget select,
+.offer-widget select {
+	color: #4;
+}
+
+/*  Widget hovered text color */
+.select-wrap:hover,
+.select-wrap:hover label,
+.select-wrap:hover select,
+.subscribe-widget a:hover {
+	color: #000000;
+}
+
+
+
+/* Widget Button Width & Height  */
+.offer-widget .main-button,
+.subscribe-widget .main-button {
+	width: 100%;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+
+/* All Button Borders */
+.main-button,
+.alt-button {
+	border: 2px solid;
+}
+
+
+/* Colors - ALl Main Buttons */
+.main-button {
+	border-color: #1F4EAB;
+	background-color: #1F4EAB;  /* Set to match BG if solid */
+	color: #FFFFFF;
+}
+
+
+.main-button:hover {
+	opacity: 0.9;
+/*	background-color: #1F4EAB; */
+}
+
+
+/* Colors - ALl Alt Buttons */
+.alt-button {
+	color: #000000;
+    background-color: rgba(255,255,255,0);
+}
+
+.alt-button:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+/* Widget Colors - Diner Borders */
+.diner,
+.diner .offer-widget,
+.diner .widget-link,
+.diner .widget-title,
+.diner .widget-body,
+.diner .widget-footer {
+	border-color: #9CD6FA;
+}
+
+a.diner:hover, .diner .widget-link:hover {
+	border-color: #77C7F8;
+}
+
+
+/* Widget Colors - Diary Borders */
+
+.diary,
+.diary .offer-widget,
+.diary .widget-link,
+.diary .widget-title,
+.diary .widget-body,
+.diary .widget-footer {
+	border-color: #F0C2C2;
+}
+
+a.diary:hover, 
+.diary .widget-link:hover {
+	border-color: #E8A3A3
+}
+
+
+/* Widget Colors - Birthday Colors */
+.birthday,
+.birthday .offer-widget,
+.birthday .widget-link,
+.birthday .widget-title,
+.birthday .widget-body,
+.birthday .widget-footer {
+	border-color: #9BF2DD;
+}
+
+a.birthday:hover, 
+.birthday .widget-link:hover {
+	border-color: #67EBCB;
+}
+
+
+/* Text Helpers 
+ * (so you don't have to put helper classes EVERYWHERE)
+ * Delete classes you dont want here */
+
+/* Centered Text */
+.widget-title,
+.widget-body,
+.widget-price {
+	text-align: center;
+}
+
+/* Uppercase */
+.widget-title .heading1,
+.widget-title .heading2,
+.widget-title .heading3,
+.widget-title .body-text,
+.widget-list-heading {
+	text-transform: uppercase;
+}
+
+/* Lowercase */
+.offer-widget .main-button,
+.subscribe-widget .main-button {
+	text-tranform: lowercase;
+}
